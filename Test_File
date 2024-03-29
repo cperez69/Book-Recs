@@ -1,1 +1,10 @@
+1. First as we are retrieving data from GoodReads so, finding a weblink to use should be simple.
+   book_url = 'https://www.goodreads.com/search?utf8=%E2%9C%93&query=book+recommendations'
+2. Run the script: Open command prompt and navigate to the directory where you have the file stored. You
+will run it with the following command:
 
+python "Final_Project".py <'https://www.goodreads.com/'>
+
+Checking Output: It should print out and return your recommendations for a multitude of subjects in the book that were originally requested.
+
+Error Handling: Input any website and it should return an error as a majority of websites will not be formatted in the same manner as a 'Book' website.
